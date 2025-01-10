@@ -45,14 +45,15 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Try Homer"
+  - name: "Hosted Tools"
     icon: "fa-solid fa-arrow-right"
     items:
-      - name: "Get started"
+      - name: "Jellyfin"
         icon: "fa-solid fa-download"
-        subtitle: "Start using Homer in a few minutes"
-        tag: "setup"
-        url: "https://github.com/bastienwirtz/homer?tab=readme-ov-file#get-started"
+        subtitle: "Watch Movies, Series all at the comfort of Home"
+        tag: "media"
+        url: "http://jellyfin.dheeth.lan:8096"
+        target: "_blank"
       - name: "Configuration"
         icon: "fa-solid fa-sliders"
         subtitle: "Configuration options documentation"
