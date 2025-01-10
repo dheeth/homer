@@ -50,7 +50,7 @@ services:
     items:
       - name: "Jellyfin"
         logo: "https://github.com/jellyfin/jellyfin-ux/raw/refs/heads/master/branding/SVG/icon-solid-black.svg"
-        subtitle: "Watch Movies, Series all at the comfort of Home"
+        # subtitle: "Watch Movies, Series all at the comfort of Home"
         tag: "media"
         type: "Emby"
         libraryType: "movies"
