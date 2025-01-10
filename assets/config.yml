@@ -3,7 +3,7 @@
 # See https://fontawesome.com/search for icons options
 
 title: "Dashboard"
-subtitle: ""
+subtitle: "Home"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
@@ -22,23 +22,24 @@ defaults:
 message:
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "👋 Welcome!"
-  content: "Homer is a dead simple static HOMepage for your servER (or anything else) to keep your services and favorite links on hand, based on a simple yaml configuration file.<br /> Learn more at <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
+  content: "This is a Dashboard created to list down all the services hosted on HomeLab"
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
   - name: "Contribute!"
     icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
+    url: "https://github.com/dheeth/homer/blob/main/public/assets/config.yml"
     target: "_blank" # optional html a tag target attribute
-  - name: "Documentation"
+  - name: "Blog"
     icon: "fas fa-book"
-    url: "https://github.com/bastienwirtz/homer/blob/main/README.md#table-of-contents"
+    url: "https://dheeth.blog"
+    target: "_blank"
   # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
   # see url field and assets/additional-page.yml.dist used in this example:
-  - name: "another page!"
-    icon: "fas fa-file-alt"
-    url: "#additional-page" 
+  # - name: "another page!"
+  #   icon: "fas fa-file-alt"
+  #   url: "#additional-page" 
 
 # Services
 # First level array represent a group.
