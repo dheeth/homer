@@ -11,7 +11,7 @@ header: true
 footer: '<p>Homepage for tools hosted by Dheeth with <span class="has-text-danger">❤️</span>' # set false if you want to hide it.
 
 # Optional theme customization
-theme: default
+theme: walkxcode
 
 columns: "3"
 
