@@ -18,10 +18,10 @@ jobs:
         uses: actions/setup-node@v4
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: pnpm install --frozen-lockfile
 
       - name: Build project
-        run: pnpm build --frozen-lockfile
+        run: pnpm build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
